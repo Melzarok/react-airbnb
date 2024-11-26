@@ -1,0 +1,50 @@
+.contact {
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact__image {
+  border-radius: 50%;
+}
+
+.contact__text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
+.contact__info {
+  font-size: 16px;
+}
+
+.contact__sub-block {
+  display: flex;
+  gap: 16px;
+}
+
+.contact__sub-value {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.contact__sub-value:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  background-color: #000;
+}

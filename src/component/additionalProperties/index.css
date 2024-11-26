@@ -1,0 +1,25 @@
+.properties {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.properties__list {
+  display: grid;
+  gap: 16px;
+}
+
+.properties__item--title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.properties__item--text {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.list-item__content {
+  flex-direction: column;
+  align-items: start;
+}

@@ -1,0 +1,23 @@
+.attractions {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.attractions__list {
+  display: grid;
+  gap: 12px;
+}
+
+.attraction__link {
+  color: #000;
+  transition: opacity ease 0.7s;
+}
+
+.attraction__link:hover {
+  opacity: 0.7;
+}
+
+.attraction__link:active {
+  opacity: 0.2;
+}
